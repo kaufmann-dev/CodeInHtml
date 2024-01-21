@@ -1,0 +1,76 @@
+body {
+	padding: 20px 25% 0 25%;
+	margin: 0;
+}
+textarea {
+	padding: 8px 12px;
+	border-radius: 0;
+	border: none;
+	vertical-align: top;
+	outline: none;
+	background-color: #222;
+	color: #f2f2f2;
+	width: 100%;
+	font-family: 'Courier Prime', monospace;
+	resize: none;
+	box-sizing: border-box;
+	tab-size: 0;
+	-moz-tab-size: 0;
+	white-space: pre;
+	cursor: inherit;
+}
+textarea::-webkit-scrollbar {
+	height: 8px;
+	width: 8px;
+}
+textarea::-webkit-scrollbar-track {
+	background: #333;
+}
+textarea::-webkit-scrollbar-thumb {
+	border-radius: 50px;
+	background: #555;
+}
+textarea::-webkit-scrollbar-thumb:hover {
+	background: #666;
+}
+
+div.html p, div.cs p, div.js p, div.css p {
+	font-family: 'Open Sans', sans-serif;
+	margin: 5px 7px;
+	font-weight: 700;
+	color: #fff;
+	text-shadow: 0px 0px 3px rgba(0,0,0,0.75);
+	display: inline-block;
+}
+div.css {
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 3px;
+	display: inline-block;
+	background-color: #0fad00;
+	border: 3px solid #0fad00;
+}
+div.html {
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 3px;
+	display: inline-block;
+	background-color: #ff9900;
+	border: 3px solid #ff9900;
+}
+div.js {
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 3px;
+	display: inline-block;
+	background-color: #ff0000;
+	border: 3px solid #ff0000;
+}
+div.cs {
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 3px;
+	display: inline-block;
+	background-color: #0064b5;
+	border: 3px solid #0064b5;
+}
